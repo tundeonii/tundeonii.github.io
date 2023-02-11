@@ -1,0 +1,84 @@
+body{
+    
+    background-color: hsl(30, 38%, 92%);
+}
+
+.about{
+    flex-direction: column;
+    font-size: 25px;
+    padding: 5px;
+    justify-content:space-evenly;
+}
+
+.product-type{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: hsl(228, 12%, 48%);
+    letter-spacing: .8rem;
+    
+}
+
+.product-name{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: hsl(212, 21%, 14%);
+    font-size: 65px;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    line-height: 65px;
+}
+
+.product-description{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: hsl(228, 12%, 48%);
+}
+
+.product-price :first-child{
+
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: hsl(158, 36%, 37%);
+    font-size: 55px;
+    font-weight: 600;
+}
+
+.product-discount-price{
+
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-decoration: line-through;
+    font-size: 29px;
+    font-weight: 300;
+    color: hsl(228, 12%, 48%);
+    padding-top: 45px;
+    padding-right: 160px;
+}
+
+.product-price{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 25px;
+}
+
+button{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color:hsl(158, 36%, 37%) ;
+    color: hsl(0, 0%, 100%);
+    width: 450px;
+    height: 70px;
+    justify-content: space-evenly;
+    border-radius: 15px;
+    border-color: hsl(158, 36%, 37%);
+}
+
+
+.btn-icon{
+    padding-left: 55px;
+    padding-right: 37.5px;
+    width: 20px;
+}
+.btn-text{
+    padding-right: 55px;
+} 
