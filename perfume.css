@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Fraunces);
+
 body{
     
     background-color: hsl(30, 38%, 92%);
@@ -19,7 +21,7 @@ body{
 }
 
 .product-name{
-    padding-top: 25px;
+    padding-top: 42px;
     padding-bottom: 25px;
     color: hsl(212, 21%, 14%);
     font-size: 65px;
@@ -29,14 +31,15 @@ body{
 }
 
 .product-description{
-    padding-top: 25px;
+    padding-top: 42px;
     padding-bottom: 25px;
     color: hsl(228, 12%, 48%);
+    
 }
 
 .product-price :first-child{
 
-    padding-top: 25px;
+    padding-top: 42px;
     padding-bottom: 25px;
     color: hsl(158, 36%, 37%);
     font-size: 55px;
@@ -45,7 +48,7 @@ body{
 
 .product-discount-price{
 
-    padding-top: 25px;
+    padding-top: 42px;
     padding-bottom: 25px;
     text-decoration: line-through;
     font-size: 29px;
@@ -58,12 +61,13 @@ body{
 .product-price{
     display: flex;
     justify-content: space-between;
-    padding-bottom: 25px;
+    padding-bottom: 0px;
 }
-
+.btn{
+    padding-top: 42px;
+}
 button{
     display: flex;
-    flex-direction: row-reverse;
     background-color:hsl(158, 36%, 37%) ;
     color: hsl(0, 0%, 100%);
     width: 450px;
@@ -74,11 +78,17 @@ button{
 }
 
 
-.btn-icon{
+.btn-icon-icon{
     padding-left: 55px;
-    padding-right: 37.5px;
     width: 20px;
+    padding-top: 17px;
+    width: 70px;
+    height: 20px;
+
 }
 .btn-text{
+    padding-top: 12px;
     padding-right: 55px;
+    font-size: 25px;
+    padding-left: 12px;
 } 
